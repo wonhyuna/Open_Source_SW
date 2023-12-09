@@ -1,11 +1,18 @@
 import cv2
 import os
 
-curr_directory = r'D:\python-workspace\Open_Source_SW\src'
-resource_directory = r'D:\python-workspace\Open_Source_SW\resource'
+"""
+ - NOTICE
+"ROOT" variable should be changed to your project path.
+"""
+ROOT = r'D:\python-workspace\Open_Source_SW'
+
+# address variables
+curr_directory = os.path.join(ROOT, 'src')
+resource_directory = os.path.join(ROOT, 'resource')
 file_list = os.listdir(resource_directory)
 
-
+# load
 face_cascade = cv2.CascadeClassifier(os.path.join(curr_directory, 'haarcascade_frontalface_default.xml'))
 eyes_cascade = cv2.CascadeClassifier(os.path.join(curr_directory, 'haarcascade_eye.xml'))
 

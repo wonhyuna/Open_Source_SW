@@ -12,6 +12,7 @@ Human facial recognition in the video
 
 
 ### ⚒️Usage Package⚒️ <br>
+> download in src folder
 - [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) <br>
 - [haarcascade_eye.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_eye.xml)
 
